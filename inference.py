@@ -118,7 +118,7 @@ def generate_novel_view(args, config):
 
     os.makedirs(args.output, exist_ok=True)
 
-    image_paths = collect_image_paths(args.input_path)
+    image_paths = collect_image_paths(args.input)
     crop_size = int(config.data.train_width)
 
     stereo_nvs = StereoSpace(config, DEVICE)
