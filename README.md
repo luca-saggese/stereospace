@@ -4,7 +4,7 @@
   <a href="https://huggingface.co/spaces/prs-eth/stereospace_web"><img src="https://img.shields.io/badge/%F0%9F%A4%8D%20Project%20-Website-blue"></a>
   <a href="https://arxiv.org/abs/2512.10959"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b"></a>
   <a href="https://huggingface.co/prs-eth/stereospace-v1-0"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-yellow"></a>
-  <a href="LICENSE.txt"><img src="https://img.shields.io/badge/License-MIT-929292"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-929292"></a>
 </p>
 
 <p align="center">
