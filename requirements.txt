@@ -1,0 +1,10 @@
+diffusers
+einops
+jaxtyping
+numpy
+omegaconf
+peft
+Pillow
+torch
+torchvision
+transformers

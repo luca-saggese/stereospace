@@ -1,0 +1,19 @@
+data:
+  train_width: 768 
+  train_height: 768
+  pretrained_model_path: 'prs-eth'
+  checkpoint_name: 'stereospace-v1-0'
+
+weight_dtype: 'bf16'  # [bf16, fp16, fp32]
+enable_zero_snr: True 
+
+num_inference_steps: 50
+guidance_scale: 1.5
+
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start:          0.00085
+  beta_end:            0.012
+  beta_schedule:       "scaled_linear"
+  steps_offset:        1
+  clip_sample:         false
