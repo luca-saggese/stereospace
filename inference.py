@@ -104,7 +104,7 @@ def stack_optional(tensors: List[Optional[torch.Tensor]]) -> Optional[torch.Tens
     return None
 
 
-def generate_novel_view(args, config):
+def generate_novel_view(args, config, stereo_nvs=None):
     K_src = (
         torch.tensor(args.src_intrinsics, dtype=torch.float32).reshape(3, 3).to(DEVICE)
         if args.src_intrinsics
@@ -121,7 +121,8 @@ def generate_novel_view(args, config):
     image_paths = collect_image_paths(args.input)
     crop_size = int(config.data.train_width)
 
-    stereo_nvs = StereoSpace(config, DEVICE)
+    if stereo_nvs is None:
+        stereo_nvs = StereoSpace(config, DEVICE)
 
     bs = max(1, int(args.batch_size))
     for start in range(0, len(image_paths), bs):
