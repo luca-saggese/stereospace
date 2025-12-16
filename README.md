@@ -1,10 +1,11 @@
 <h1 style="text-align:center;">StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</h1>
 
 <p align="center">
-  <a href="https://huggingface.co/spaces/prs-eth/stereospace_web"><img src="https://img.shields.io/badge/%F0%9F%A4%8D%20Project%20-Website-blue"></a>
-  <a href="https://arxiv.org/abs/2512.10959"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b"></a>
-  <a href="https://huggingface.co/prs-eth/stereospace-v1-0"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-yellow"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-929292"></a>
+  <a href="https://huggingface.co/spaces/prs-eth/stereospace_web" target="_blank" rel="noopener noreferrer" style="display: inline-block;"><img src="https://img.shields.io/badge/%F0%9F%A4%8D%20Project%20-Website-blue"></a>
+  <a href="https://arxiv.org/abs/2512.10959" target="_blank" rel="noopener noreferrer" style="display: inline-block;"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b"></a>
+  <a href="https://huggingface.co/spaces/toshas/stereospace" target="_blank" rel="noopener noreferrer" style="display: inline-block;"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Demo-yellow"></a>
+  <a href="https://huggingface.co/prs-eth/stereospace-v1-0" target="_blank" rel="noopener noreferrer" style="display: inline-block;"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-yellow"></a>
+  <a href="LICENSE" target="_blank" rel="noopener noreferrer" style="display: inline-block;"><img src="https://img.shields.io/badge/License-MIT-929292"></a>
 </p>
 
 <p align="center">
