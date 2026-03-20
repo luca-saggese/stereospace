@@ -31,7 +31,7 @@ def clone_repository():
     print(f"Repository ready at {REPO_DIR}")
 
 
-# clone_repository()
+#clone_repository()
 
 sys.path.insert(0, REPO_DIR)
 from inference import generate_novel_view
