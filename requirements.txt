@@ -1,5 +1,6 @@
 diffusers
 einops
+gradio==6.1.0
 jaxtyping
 numpy
 omegaconf
@@ -8,3 +9,4 @@ Pillow
 torch
 torchvision
 transformers
+spaces
