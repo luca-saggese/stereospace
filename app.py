@@ -14,7 +14,7 @@ from gradio_patches.radio import Radio
 
 REPO_URL = "https://github.com/prs-eth/stereospace.git"
 COMMIT_SHA = "d7bbae6"
-REPO_DIR = "stereospace"
+REPO_DIR = "."
 DEVICE = "cuda"
 
 
